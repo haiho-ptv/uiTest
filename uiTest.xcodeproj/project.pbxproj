@@ -17,6 +17,7 @@
 		39D4152A2CF71A1B0061F5F4 /* uiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D415292CF71A1B0061F5F4 /* uiTestUITests.swift */; };
 		39D4152C2CF71A1B0061F5F4 /* uiTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4152B2CF71A1B0061F5F4 /* uiTestUITestsLaunchTests.swift */; };
 		39D4153A2CF71D810061F5F4 /* CustomBotton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D415392CF71D810061F5F4 /* CustomBotton.swift */; };
+		39FF7E062CF95FC0007290FD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FF7E052CF95FC0007290FD /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		39D415292CF71A1B0061F5F4 /* uiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiTestUITests.swift; sourceTree = "<group>"; };
 		39D4152B2CF71A1B0061F5F4 /* uiTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		39D415392CF71D810061F5F4 /* CustomBotton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBotton.swift; sourceTree = "<group>"; };
+		39FF7E052CF95FC0007290FD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		39D415072CF71A1A0061F5F4 /* uiTest */ = {
 			isa = PBXGroup;
 			children = (
+				39FF7E022CF95F6A007290FD /* secondclass */,
 				39D415382CF71D3F0061F5F4 /* views */,
 				39D415082CF71A1A0061F5F4 /* AppDelegate.swift */,
 				39D4150A2CF71A1A0061F5F4 /* SceneDelegate.swift */,
@@ -136,6 +139,14 @@
 				39D415392CF71D810061F5F4 /* CustomBotton.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		39FF7E022CF95F6A007290FD /* secondclass */ = {
+			isa = PBXGroup;
+			children = (
+				39FF7E052CF95FC0007290FD /* SecondViewController.swift */,
+			);
+			path = secondclass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 				39D4150D2CF71A1A0061F5F4 /* ViewController.swift in Sources */,
 				39D415092CF71A1A0061F5F4 /* AppDelegate.swift in Sources */,
 				39D4153A2CF71D810061F5F4 /* CustomBotton.swift in Sources */,
+				39FF7E062CF95FC0007290FD /* SecondViewController.swift in Sources */,
 				39D4150B2CF71A1A0061F5F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
