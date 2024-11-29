@@ -68,15 +68,59 @@
                                     <segue destination="5Jl-yF-JJk" kind="unwind" unwindAction="backToHomeWithSegue:" id="RVL-AJ-z3g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adp-EI-12I" customClass="CustomBotton" customModule="uiTest" customModuleProvider="target">
+                                <rect key="frame" x="98" y="591" width="147" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start Game">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.94011759019999996" green="0.94011759019999996" blue="0.94011759019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="StartGame:" destination="7Yg-O8-ZkC" eventType="touchUpInside" id="OLE-QL-Bid"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="U1c-j7-bX3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="xJ0-t2-Pb9"/>
+                    <connections>
+                        <segue destination="3mS-N0-ydn" kind="show" identifier="ingameSegue" id="fLR-ec-P3v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dpJ-p0-pzx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="990.07633587786256" y="-47.183098591549296"/>
+        </scene>
+        <!--Start Game View Controller-->
+        <scene sceneID="Ngo-dc-Hfc">
+            <objects>
+                <viewController id="3mS-N0-ydn" customClass="StartGameViewController" customModule="uiTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZRp-tM-Pvg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="StartGame Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShA-kw-v13">
+                                <rect key="frame" x="76" y="371" width="264" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" red="0.94011759019999996" green="0.94011759019999996" blue="0.94011759019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Vkk-mc-SwA">
+                                <rect key="frame" x="-23" y="0.0" width="463" height="876"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="s7P-lQ-KiF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ppp-hg-yLJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pr3-w4-nbx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1722.9007633587785" y="-67.605633802816911"/>
         </scene>
     </scenes>
     <resources>

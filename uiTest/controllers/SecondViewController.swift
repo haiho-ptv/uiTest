@@ -14,4 +14,7 @@ class SecondViewController : UIViewController{
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func StartGame(_ sender: Any) {
+        performSegue(withIdentifier: "ingameSegue", sender: self)
+    }
 }
