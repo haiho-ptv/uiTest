@@ -35,4 +35,11 @@ class SecondViewController : UIViewController{
         btnA.isEnabled = true
         performSegue(withIdentifier: "ingameSegue", sender: self)
     }
+    // override this func to transfer data to other viewcontroller
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let desTarget =  segue.destination as? StartGameViewController{
+            // send data to other viewcontroller
+            desTarget.character = character
+        }
+    }
 }
