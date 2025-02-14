@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39190B8D2D5F2F3B00F78E4F /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39190B8C2D5F2F3B00F78E4F /* CharacterModel.swift */; };
 		39D415092CF71A1A0061F5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D415082CF71A1A0061F5F4 /* AppDelegate.swift */; };
 		39D4150B2CF71A1A0061F5F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4150A2CF71A1A0061F5F4 /* SceneDelegate.swift */; };
 		39D4150D2CF71A1A0061F5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4150C2CF71A1A0061F5F4 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39190B8C2D5F2F3B00F78E4F /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		39D415052CF71A1A0061F5F4 /* uiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D415082CF71A1A0061F5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39D4150A2CF71A1A0061F5F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39190B8B2D5F2F1E00F78E4F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				39190B8C2D5F2F3B00F78E4F /* CharacterModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		39D414FC2CF71A1A0061F5F4 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		39D415072CF71A1A0061F5F4 /* uiTest */ = {
 			isa = PBXGroup;
 			children = (
+				39190B8B2D5F2F1E00F78E4F /* model */,
 				39FF7E022CF95F6A007290FD /* controllers */,
 				39D415382CF71D3F0061F5F4 /* views */,
 				39D415082CF71A1A0061F5F4 /* AppDelegate.swift */,
@@ -288,6 +299,7 @@
 				39D4153A2CF71D810061F5F4 /* CustomBotton.swift in Sources */,
 				39FF7E062CF95FC0007290FD /* SecondViewController.swift in Sources */,
 				39D4150B2CF71A1A0061F5F4 /* SceneDelegate.swift in Sources */,
+				39190B8D2D5F2F3B00F78E4F /* CharacterModel.swift in Sources */,
 				39FF7E082CF9CE14007290FD /* StartGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
